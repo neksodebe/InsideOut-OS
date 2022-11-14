@@ -25,8 +25,6 @@ Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'         # Cyan
 White='\033[0;37m'        # White
 
-echo -e "${White}${On_Red}!!! REMEMBER TO CHANGE THE VERSION IN PACKAGE.JSON AND BUILD.GRADLE !!!${Color_Off}"
-sleep 2
 
 read -p "Enter the commit message: " msg
 read -p "Enter the commit description: " desc
